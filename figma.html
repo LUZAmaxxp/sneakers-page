@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/kumbh-sans" rel="stylesheet" />
+    <link rel="stylesheet" href="figma.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1 style="font-family: 'Kumbh Sans', sans-serif" id="head-title">
+        sneakers
+      </h1>
+      <a id="collections" style="padding-top: 20px">Collections</a>
+      <a id="Men" style="padding-top: 20px">Men</a>
+      <a id="Women" style="padding-top: 20px">Women</a>
+      <a id="About" style="padding-top: 20px">About</a>
+      <a id="Contact" style="padding-top: 20px">Contact</a>
+      <img
+        src="pngimg.com - shopping_cart_PNG60.png"
+        alt="shopping cart"
+        height="20px"
+        id="image"
+      />
+    </div>
+
+    <div id="image1andpar">
+      <div id="img">
+        <img
+          id="image1"
+          src="homeimages/nike-air-max-90-AJ1285-104-6.webp"
+          alt="shoe"
+          height="420px"
+          width="600px"
+        />
+        <img
+          src="homeimages/next.png"
+          alt="arrow"
+          height="30px"
+          width="30"
+          id="arrow"
+          onclick="switchimg(event)"
+        />
+      </div>
+
+      <div id="header0">
+        <h6 id="sneak">SNEAKER COMPANY</h6>
+      </div>
+    </div>
+    <div id="tani">
+      <h1 id="header1">
+        Fall Limited Edition<br />
+        Sneakers
+      </h1>
+      <section id="paragraph">
+        These low-profile sneakers are your perfect casual wear<br />
+        companion. Featuring a durable rubber outer sole, they'll<br />
+        withstand everything the weather can offer .
+      </section>
+        <section id="price" ></section>
+      <div id="smt">
+       <img
+            src="homeimages/icons8-arrow-96.png"
+            alt="arrow"
+            height="30px"
+            width="30"
+            id="arrow1"
+            data-action="decrement"
+            style="margin-right: 10px;"
+            onclick="decrementNumber(event)"
+          />
+
+          <p id="counter" >0</p>
+
+          <img
+            src="homeimages/icons8-arrow-48.png"
+            alt="arrow"
+            height="30px"
+            width="30"
+            id="arrow2"
+            data-action="increment"
+            style="margin-left: 10px;"
+            onclick="incrementNumber(event)"
+          />
+        </section>
+      </div>
+      <button class="button-77" role="button">more info</button>
+    </div>
+    <script src="maincode/code.js"></script>
+  </body>
+</html>
+
+                  
+
+                   
